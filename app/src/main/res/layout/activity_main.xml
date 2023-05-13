@@ -18,6 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.91"
+        app:srcCompat="@drawable/talong"
         tools:srcCompat="@drawable/talong" />
 
     <ImageView
@@ -30,6 +31,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.908"
+        app:srcCompat="@drawable/talong"
         tools:srcCompat="@drawable/talong" />
 
     <ImageView
@@ -43,6 +45,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.906"
+        app:srcCompat="@drawable/talong"
         tools:srcCompat="@drawable/talong" />
 
     <ImageView
@@ -93,6 +96,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.374"
+        app:srcCompat="@drawable/talong"
         tools:srcCompat="@drawable/talong" />
 
     <ImageView
@@ -106,6 +110,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.374"
+        app:srcCompat="@drawable/talong"
         tools:srcCompat="@drawable/talong" />
 
     <ImageView
@@ -119,6 +124,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.374"
+        app:srcCompat="@drawable/talong"
         tools:srcCompat="@drawable/talong" />
 
     <ImageView
@@ -132,6 +138,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.087"
+        app:srcCompat="@drawable/talong"
         tools:srcCompat="@drawable/talong" />
 
     <ImageView
@@ -158,5 +165,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.087"
+        app:srcCompat="@drawable/talong"
         tools:srcCompat="@drawable/talong" />
 </androidx.constraintlayout.widget.ConstraintLayout>

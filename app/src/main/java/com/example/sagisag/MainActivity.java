@@ -99,5 +99,27 @@ public class MainActivity extends AppCompatActivity {
             startActivity(sandal);
         }
     });
+
+    transpo.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent vroom = new Intent(MainActivity.this, Kalesa.class);
+            startActivity(vroom);
+        }
+    });
+
+    pearl.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent jewel = new Intent(MainActivity.this, Perlas.class);
+        }
+    });
+
+    dance.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent dancing = new Intent(MainActivity.this, Carinosa.class);
+        }
+    });
     }
 }
