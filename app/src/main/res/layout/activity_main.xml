@@ -11,151 +11,152 @@
         android:id="@+id/Kalesa"
         android:layout_width="105dp"
         android:layout_height="98dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.91"
-        tools:srcCompat="@tools:sample/avatars"
-        android:visibility="visible"/>
+        tools:srcCompat="@drawable/talong" />
 
     <ImageView
         android:id="@+id/Perlas"
         android:layout_width="105dp"
         android:layout_height="98dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.908"
-        tools:srcCompat="@tools:sample/avatars"
-        android:visibility="visible"/>
+        tools:srcCompat="@drawable/talong" />
 
     <ImageView
         android:id="@+id/Carinosa"
         android:layout_width="105dp"
         android:layout_height="98dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.947"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.906"
-        tools:srcCompat="@tools:sample/avatars"
-        android:visibility="visible"/>
+        tools:srcCompat="@drawable/talong" />
 
     <ImageView
         android:id="@+id/BahayKubo"
         android:layout_width="105dp"
         android:layout_height="98dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.651"
-        tools:srcCompat="@tools:sample/avatars"
-        android:visibility="visible"/>
+        tools:srcCompat="@drawable/talong" />
 
     <ImageView
         android:id="@+id/Bakya"
         android:layout_width="105dp"
         android:layout_height="98dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.947"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.651"
-        tools:srcCompat="@tools:sample/avatars"
-        android:visibility="visible"/>
+        tools:srcCompat="@drawable/talong" />
 
     <ImageView
         android:id="@+id/Anahaw"
         android:layout_width="105dp"
         android:layout_height="98dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.653"
-        tools:srcCompat="@tools:sample/avatars"
-        android:visibility="visible"/>
+        tools:srcCompat="@drawable/talong" />
 
     <ImageView
         android:id="@+id/Mangga"
         android:layout_width="105dp"
         android:layout_height="98dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.374"
-        tools:srcCompat="@tools:sample/avatars"
-        android:visibility="visible"/>
+        tools:srcCompat="@drawable/talong" />
 
     <ImageView
         android:id="@+id/Agila"
         android:layout_width="105dp"
         android:layout_height="98dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.947"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.374"
-        tools:srcCompat="@tools:sample/avatars"
-        android:visibility="visible"/>
+        tools:srcCompat="@drawable/talong" />
 
     <ImageView
         android:id="@+id/Carabao"
         android:layout_width="105dp"
         android:layout_height="98dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.374"
-        tools:srcCompat="@tools:sample/avatars"
-        android:visibility="visible"/>
+        tools:srcCompat="@drawable/talong" />
 
     <ImageView
         android:id="@+id/LechonBaboy"
         android:layout_width="105dp"
         android:layout_height="98dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.947"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.087"
-        tools:srcCompat="@tools:sample/avatars"
-        android:visibility="visible"/>
+        tools:srcCompat="@drawable/talong" />
 
     <ImageView
         android:id="@+id/Sampaguita"
         android:layout_width="105dp"
         android:layout_height="98dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.087"
-        tools:srcCompat="@tools:sample/avatars"
-        android:visibility="visible"/>
+        app:srcCompat="@drawable/talong"
+        tools:srcCompat="@drawable/talong" />
 
     <ImageView
         android:id="@+id/Narra"
         android:layout_width="105dp"
         android:layout_height="98dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.087"
-        tools:srcCompat="@tools:sample/avatars"
-        android:visibility="visible"/>
+        tools:srcCompat="@drawable/talong" />
 </androidx.constraintlayout.widget.ConstraintLayout>
