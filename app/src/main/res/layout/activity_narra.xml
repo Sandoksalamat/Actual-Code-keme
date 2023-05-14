@@ -23,7 +23,7 @@
         android:id="@+id/name_Narra"
         android:layout_width="170dp"
         android:layout_height="54dp"
-        android:text="Sampaguita"
+        android:text="Narra"
         android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"

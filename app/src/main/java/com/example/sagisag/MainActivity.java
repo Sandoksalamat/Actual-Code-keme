@@ -1,12 +1,16 @@
 package com.example.sagisag;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.media.Image;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -112,6 +116,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             Intent jewel = new Intent(MainActivity.this, Perlas.class);
+            startActivity(jewel);
         }
     });
 
@@ -119,7 +124,28 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             Intent dancing = new Intent(MainActivity.this, Carinosa.class);
+            startActivity(dancing);
         }
     });
+
+    getSupportActionBar().setDisplayShowHomeEnabled(true);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        menu.add("About Us");
+        menu.add("TITE");
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onContextItemSelected(@NonNull MenuItem item) {
+        if(item.getTitle().equals("About Us")) {
+            Toast.makeText(this, "Kunwari Gumana", Toast.LENGTH_SHORT).show();
+        }
+        else if (item.getTitle().equals("TITE")) {
+            Toast.makeText(this,"8===D", Toast.LENGTH_SHORT).show();
+        }
+        return super.onContextItemSelected(item);
     }
 }

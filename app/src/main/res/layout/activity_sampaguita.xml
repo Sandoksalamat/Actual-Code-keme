@@ -8,27 +8,6 @@
     android:background="#D59191"
     tools:context=".Sampaguita">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="87dp"
-        android:layout_height="92dp"
-        android:height="@android:dimen/app_icon_size"
-        android:background="#00FFFFFF"
-        android:foreground="@android:drawable/ic_media_previous"
-        android:foregroundGravity="center"
-        android:foregroundTint="#B14242"
-        android:scaleX="2"
-        android:scaleY="2"
-        android:shadowColor="#000000"
-        android:textAlignment="center"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.012"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.448" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="228dp"
@@ -74,13 +53,13 @@
         android:layout_height="92dp"
         android:height="@android:dimen/app_icon_size"
         android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
         android:foreground="@android:drawable/ic_media_next"
         android:foregroundGravity="center"
         android:foregroundTint="#B14242"
         android:scaleX="2"
         android:scaleY="2"
         android:shadowColor="#000000"
-        android:textAlignment="center"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
