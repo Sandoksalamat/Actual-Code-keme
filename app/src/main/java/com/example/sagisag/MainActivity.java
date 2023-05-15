@@ -134,17 +134,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         menu.add("About Us");
-        menu.add("TITE");
         return super.onCreateOptionsMenu(menu);
     }
 
     @Override
     public boolean onContextItemSelected(@NonNull MenuItem item) {
         if(item.getTitle().equals("About Us")) {
-            Toast.makeText(this, "Kunwari Gumana", Toast.LENGTH_SHORT).show();
-        }
-        else if (item.getTitle().equals("TITE")) {
-            Toast.makeText(this,"8===D", Toast.LENGTH_SHORT).show();
+            Intent abot = new Intent(MainActivity.this,about.class);
+            startActivity(abot);
         }
         return super.onContextItemSelected(item);
     }
