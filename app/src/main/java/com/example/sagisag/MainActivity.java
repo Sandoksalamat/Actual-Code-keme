@@ -133,16 +133,18 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        menu.add("About Us");
-        return super.onCreateOptionsMenu(menu);
+        getMenuInflater().inflate(R.menu.menu,menu);
+        return true;
     }
 
     @Override
-    public boolean onContextItemSelected(@NonNull MenuItem item) {
-        if(item.getTitle().equals("About Us")) {
-            Intent abot = new Intent(MainActivity.this,about.class);
-            startActivity(abot);
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        int item_id = item.getItemId();
+
+        if (item_id == R.id.aboutus) {
+            Intent please = new Intent(MainActivity.this,about.class);
+            startActivity(please);
         }
-        return super.onContextItemSelected(item);
+        return true;
     }
 }
