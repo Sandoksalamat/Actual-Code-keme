@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Sagisag</string>
     <string name="todo">TODO</string>
+    <string name="it_is_declared_as_the_national_flower_by_governor_general_frank_murphy_in_1934_in_the_philippines_it_is_unusual_for_someone_to_give_sampaguita_to_another_person_as_a_gift_or_as_a_sign_of_adoration_because_it_has_a_lasting_impression_of_being_solely_offered_to_saints">It is declared as the national flower by Governor-General Frank Murphy in 1934. In the Philippines, it is unusual for someone to give Sampaguita to another person as a gift or as a sign of adoration because it has a lasting impression of being solely offered to saints.</string>
+    <string name="meaning">Meaning</string>
+    <string name="sampaguita">Sampaguita</string>
+    <string name="symbolize_purity_fidelity_and_hope">symbolize purity, fidelity, and hope</string>
 </resources>
