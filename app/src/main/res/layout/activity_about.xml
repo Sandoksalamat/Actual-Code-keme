@@ -5,6 +5,7 @@
     android:id="@+id/about"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFE7D1"
     tools:context=".about">
 
     <TextView
