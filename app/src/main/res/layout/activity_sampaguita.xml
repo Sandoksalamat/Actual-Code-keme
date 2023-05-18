@@ -5,7 +5,7 @@
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFE7D1"
+    android:background="@drawable/s_bg"
     tools:context=".Sampaguita">
 
     <ImageView
@@ -18,9 +18,80 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.107"
+        app:layout_constraintVertical_bias="0.085"
         app:srcCompat="@drawable/perl"
         tools:srcCompat="@drawable/perl" />
+
+    <TextView
+        android:id="@+id/Name_Sampag"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:text="@string/sampaguita"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+
+    <TextView
+        android:id="@+id/content_Sampag"
+        android:layout_width="245dp"
+        android:layout_height="139dp"
+        android:text="@string/it_was_declared_as_the_national_flower_by_governor_general_frank_murphy_in_1934_in_the_philippines_it_is_unusual_for_someone_to_give_sampaguita_to_another_person_as_a_gift_or_as_a_sign_of_adoration_because_it_has_a_lasting_impression_of_being_solely_offered_to_saints_plus_did_you_know_that_sampaguita_is_not_native_to_the_philippines_and_is_still_not_considered_a_naturalized_species_it_has_a_pantropical_distribution_and_is_commonly_cultivated_in_the_country_for_ornamental_purposes_the_sweet_smelling_flowers_are_often_made_into_garlands_and_perfumery_there_are_more_than_10_species_of_jasminum_in_the_philippines_and_8_species_are_considered_endemic_and_are_not_found_elsewhere_in_the_world"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.905" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="215dp"
+        android:layout_height="32dp"
+        android:text="@string/symbol_of"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="215dp"
+        android:layout_height="32dp"
+        android:text="@string/purity_fidelity_and_hope"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="215dp"
+        android:layout_height="32dp"
+        android:text="History and Background"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.665" />
 
     <Button
         android:id="@+id/button3"
@@ -42,49 +113,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.45" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="215dp"
-        android:layout_height="32dp"
-        android:text="History and Background"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.469"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6" />
-
-    <TextView
-        android:id="@+id/content_Sampag"
-        android:layout_width="245dp"
-        android:layout_height="139dp"
-        android:text="@string/it_is_declared_as_the_national_flower_by_governor_general_frank_murphy_in_1934_in_the_philippines_it_is_unusual_for_someone_to_give_sampaguita_to_another_person_as_a_gift_or_as_a_sign_of_adoration_because_it_has_a_lasting_impression_of_being_solely_offered_to_saints"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.825" />
-
-    <TextView
-        android:id="@+id/Name_Sampag"
-        android:layout_width="170dp"
-        android:layout_height="54dp"
-        android:text="@string/sampaguita"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.469" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

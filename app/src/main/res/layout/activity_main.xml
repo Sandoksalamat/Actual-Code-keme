@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="#D59191">
+    android:background="@drawable/ma_bg"
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/Kalesa"
@@ -23,16 +23,16 @@
 
     <ImageView
         android:id="@+id/Perlas"
-        android:layout_width="105dp"
-        android:layout_height="98dp"
+        android:layout_width="101dp"
+        android:layout_height="99dp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.908"
-        app:srcCompat="@drawable/talong"
-        tools:srcCompat="@drawable/talong" />
+        app:srcCompat="@drawable/perl"
+        tools:srcCompat="@drawable/perl" />
 
     <ImageView
         android:id="@+id/Carinosa"

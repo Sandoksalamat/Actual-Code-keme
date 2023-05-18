@@ -4,19 +4,5 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/splashs"
-    tools:context=".Loading">
-
-    <ProgressBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="false"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="182dp"
-        android:layout_marginEnd="181dp"
-        android:layout_marginBottom="362dp"
-        android:visibility="visible" />
-
-</RelativeLayout>
+    android:background="@drawable/loadingscrn"
+    tools:context=".Loading" />

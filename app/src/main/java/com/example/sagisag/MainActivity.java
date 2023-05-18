@@ -140,7 +140,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         int item_id = item.getItemId();
-
         if (item_id == R.id.aboutus) {
             Intent please = new Intent(MainActivity.this,about.class);
             startActivity(please);
