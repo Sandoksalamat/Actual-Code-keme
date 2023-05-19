@@ -4,44 +4,94 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D59191"
+    android:background="@drawable/s_bg"
     tools:context=".Carabao">
 
-    <TextView
-        android:id="@+id/content_Carabao"
-        android:layout_width="259dp"
-        android:layout_height="199dp"
-        android:text="Content ng tanginang to"
+    <Button
+        android:id="@+id/rbutton3"
+        android:layout_width="63dp"
+        android:layout_height="76dp"
+        android:height="@android:dimen/app_icon_size"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
+        android:foreground="@drawable/rightbutton"
+        android:foregroundGravity="center"
+        android:foregroundTint="#1D394E"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:shadowColor="#000000"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.756" />
+        app:layout_constraintVertical_bias="0.499" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="204dp"
+        android:layout_height="194dp"
+        android:contentDescription="@string/sampaguita"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107"
+        app:srcCompat="@drawable/talong"
+        tools:srcCompat="@drawable/talong" />
+
+    <Button
+        android:id="@+id/lbutton3"
+        android:layout_width="63dp"
+        android:layout_height="76dp"
+        android:height="@android:dimen/app_icon_size"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
+        android:foreground="@drawable/leftbutton"
+        android:foregroundGravity="center"
+        android:foregroundTint="#1D394E"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:shadowColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
     <TextView
-        android:id="@+id/name_Carabao"
+        android:id="@+id/content_carabao"
+        android:layout_width="243dp"
+        android:layout_height="185dp"
+        android:text="Meaning: \n power, efficiency, perseverance, and hard work \n \n
+History and Background: \n The carabao or kalabaw is a water buffalo that is endemic in Southeast Asia. Aside from helping our farmers plow the fields, this animal is our source of transportation, milk for sweets and cooking, meat, raw materials to design furniture, coin and mascot designs, body armor, children’s songs, jokes, and expressions in the vernacular. Moreover, The carabao is an important part of the Philippine economy and a fixture in Filipino culture. The economic power of the carabao to draw objects contributes 1.48 million dollars to the Philippine economy. This is due to the significance of the Carabao in agriculture, among other things. Because they are strong enough to plow rice fields as well as other crop fields, a benefit that weighing half a ton allows them is that they may be found pulling timber and other goods on carts called kariton (cart) and kareta (sled).
+"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.808"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/name_carabao"
         android:layout_width="170dp"
         android:layout_height="54dp"
         android:text="Carabao"
         android:textAlignment="center"
+        android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="228dp"
-        android:layout_height="155dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.102"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintVertical_bias="0.519"
+        tools:ignore="HardcodedText" />
 </androidx.constraintlayout.widget.ConstraintLayout>

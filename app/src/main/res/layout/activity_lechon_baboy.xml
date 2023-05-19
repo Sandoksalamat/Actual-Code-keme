@@ -4,44 +4,92 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D59191"
+    android:background="@drawable/s_bg"
     tools:context=".LechonBaboy">
 
-    <TextView
-        android:id="@+id/content_Lechon"
-        android:layout_width="259dp"
-        android:layout_height="199dp"
-        android:text="Content ng tanginang to"
+    <Button
+        android:id="@+id/rbutton3"
+        android:layout_width="63dp"
+        android:layout_height="76dp"
+        android:height="@android:dimen/app_icon_size"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
+        android:foreground="@drawable/rightbutton"
+        android:foregroundGravity="center"
+        android:foregroundTint="#1D394E"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:shadowColor="#000000"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.756" />
+        app:layout_constraintVertical_bias="0.499" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="204dp"
+        android:layout_height="194dp"
+        android:contentDescription="@string/sampaguita"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107"
+        app:srcCompat="@drawable/talong"
+        tools:srcCompat="@drawable/talong" />
+
+    <Button
+        android:id="@+id/lbutton3"
+        android:layout_width="63dp"
+        android:layout_height="76dp"
+        android:height="@android:dimen/app_icon_size"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
+        android:foreground="@drawable/leftbutton"
+        android:foregroundGravity="center"
+        android:foregroundTint="#1D394E"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:shadowColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
     <TextView
-        android:id="@+id/name_Lechon"
+        android:id="@+id/content_lb"
+        android:layout_width="243dp"
+        android:layout_height="185dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.808"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/name_lechon"
         android:layout_width="170dp"
         android:layout_height="54dp"
         android:text="Lechon Baboy"
         android:textAlignment="center"
+        android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="228dp"
-        android:layout_height="155dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.102"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintVertical_bias="0.519"
+        tools:ignore="HardcodedText" />
 </androidx.constraintlayout.widget.ConstraintLayout>
