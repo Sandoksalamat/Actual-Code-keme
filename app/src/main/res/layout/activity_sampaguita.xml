@@ -18,9 +18,47 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.085"
+        app:layout_constraintVertical_bias="0.107"
         app:srcCompat="@drawable/sampaguita"
         tools:srcCompat="@drawable/sampaguita" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="63dp"
+        android:layout_height="76dp"
+        android:height="@android:dimen/app_icon_size"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
+        android:foreground="@drawable/rightbutton"
+        android:foregroundGravity="center"
+        android:foregroundTint="#1D394E"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:shadowColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/content_Sampag"
+        android:layout_width="243dp"
+        android:layout_height="185dp"
+        android:text="Meaning:\n symbolize purity, fidelity, and hope \n
+\n History and Background:\n It was declared as the national flower by Governor-General Frank Murphy in 1934. In the Philippines, it is unusual for someone to give Sampaguita to another person as a gift or as a sign of adoration because it has a lasting impression of being solely offered to saints.\n
+\n Other Info:\n Did you know that Sampaguita is not native to the Philippines and is still not considered a naturalized species? It has a pantropical distribution and is commonly cultivated in the country for ornamental purposes. The sweet-smelling flowers are often made into garlands and perfumery. There are more than 10 species of Jasminum in the Philippines and 8 species are considered endemic and are not found elsewhere in the world.
+"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.808"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/Name_Sampag"
@@ -35,83 +73,6 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.431" />
-
-    <TextView
-        android:id="@+id/content_Sampag"
-        android:layout_width="245dp"
-        android:layout_height="139dp"
-        android:text="@string/it_was_declared_as_the_national_flower_by_governor_general_frank_murphy_in_1934_in_the_philippines_it_is_unusual_for_someone_to_give_sampaguita_to_another_person_as_a_gift_or_as_a_sign_of_adoration_because_it_has_a_lasting_impression_of_being_solely_offered_to_saints_plus_did_you_know_that_sampaguita_is_not_native_to_the_philippines_and_is_still_not_considered_a_naturalized_species_it_has_a_pantropical_distribution_and_is_commonly_cultivated_in_the_country_for_ornamental_purposes_the_sweet_smelling_flowers_are_often_made_into_garlands_and_perfumery_there_are_more_than_10_species_of_jasminum_in_the_philippines_and_8_species_are_considered_endemic_and_are_not_found_elsewhere_in_the_world"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.905" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="215dp"
-        android:layout_height="32dp"
-        android:text="@string/symbol_of"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.514" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="215dp"
-        android:layout_height="32dp"
-        android:text="@string/purity_fidelity_and_hope"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.57" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="215dp"
-        android:layout_height="32dp"
-        android:text="History and Background"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.665" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="87dp"
-        android:layout_height="92dp"
-        android:height="@android:dimen/app_icon_size"
-        android:background="#00FFFFFF"
-        android:contentDescription="@string/app_name"
-        android:foreground="@android:drawable/ic_media_next"
-        android:foregroundGravity="center"
-        android:foregroundTint="#B14242"
-        android:scaleX="2"
-        android:scaleY="2"
-        android:shadowColor="#000000"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.996"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45" />
+        app:layout_constraintVertical_bias="0.519" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
