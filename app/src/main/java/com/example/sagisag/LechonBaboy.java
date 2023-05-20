@@ -19,6 +19,7 @@ public class LechonBaboy extends AppCompatActivity {
 
         Button next = findViewById(R.id.rbutton3);
         Button prev = findViewById(R.id.lbutton3);
+        tv = (TextView) findViewById(R.id.content_lechon);
         String xd = "";
         tv.setText(xd);
         tv.setMovementMethod(new ScrollingMovementMethod());
@@ -33,7 +34,7 @@ public class LechonBaboy extends AppCompatActivity {
         prev.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent prv = new Intent(LechonBaboy.this,Mangga.class);
+                Intent prv = new Intent(LechonBaboy.this,Narra.class);
                 startActivity(prv);
             }
         });

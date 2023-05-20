@@ -15,55 +15,68 @@
         <activity
             android:name=".about"
             android:exported="false"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity"
+            android:label="About Us: Group 3"/>
         <activity
             android:name=".Carinosa"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:label="Hidden Gems"/>
         <activity
             android:name=".Perlas"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:label="Hidden Gems"/>
         <activity
             android:name=".Kalesa"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:label="Hidden Gems"/>
         <activity
             android:name=".Bakya"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:label="Hidden Gems"/>
         <activity
             android:name=".BahayKubo"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:label="Hidden Gems" />
         <activity
             android:name=".Anahaw"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:label="Hidden Gems"/>
         <activity
             android:name=".Agilla"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:label="Hidden Gems"/>
         <activity
             android:name=".Mangga"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:label="Hidden Gems"/>
         <activity
             android:name=".Carabao"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:label="Hidden Gems"/>
         <activity
             android:name=".LechonBaboy"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:label="Hidden Gems"/>
         <activity
             android:name=".Narra"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:label="Hidden Gems"/>
         <activity
             android:name=".Sampaguita"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:label="Hidden Gems"/>
         <activity
             android:name=".Loading"
             android:exported="true"
@@ -76,7 +89,8 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Hidden Gems"/>
     </application>
 
 </manifest>

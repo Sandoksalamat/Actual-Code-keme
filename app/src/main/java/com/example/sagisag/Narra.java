@@ -36,7 +36,7 @@ public class Narra extends AppCompatActivity {
         rightboton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent next = new Intent(Narra.this, Agilla.class);
+                Intent next = new Intent(Narra.this,LechonBaboy.class);
                 startActivity(next);
             }
         });
