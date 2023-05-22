@@ -67,7 +67,10 @@
         android:id="@+id/content_agila"
         android:layout_width="243dp"
         android:layout_height="185dp"
-        android:text=""
+        android:text="Meaning: \n a nation's unity, its hopes, achievements, glory and successes.\n
+\n History and Background: \n The Philippine Eagle is one of the rarest birds in the world, with an estimated population of fewer than than 500 individuals. The Philippine Eagle was the official mascot for the Southeast Asian Games competition in 2005. \n
+\n Other Info: \n Currently, this eagle belongs to the most endangered 'species' in the whole world. Catching or hunting, and destroying its habitat such as logging and burning the forest to make farmland is the reason for the rapid depletion of this national bird. To protect the population, the Convention on International Trade of Endangered Species of Wild Fauna and Flora (CITES) prohibits its capture and sale. In addition, a 'captive-breeding program' was established under the management of the Philippine Eagle Foundation. This program through artificial insemination has brought to life 10 'eaglets' since 1991.
+"
         android:textAlignment="center"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"

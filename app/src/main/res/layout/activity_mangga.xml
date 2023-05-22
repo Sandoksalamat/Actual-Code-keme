@@ -67,7 +67,10 @@
         android:id="@+id/content_mangga"
         android:layout_width="243dp"
         android:layout_height="185dp"
-        android:text=""
+        android:text="Meaning: \n signifies richness and a heart shape that symbolizes a very important part like in human anatomy. \n
+\n History and Background: \n Mangoes remain one of the most cultivated tropical fruits in the world. As the national fruit of India it represents prosperity, abundance and richness in favor of the country’s image. Mango is one of the most widely grown fruits of the tropical countries. \n
+\n Other Info: \n Did you know that Philippines holds the record for the “World’s Biggest Mango” which weighs 3.5 kilos (7.7 lbs.)? And the best and the sweetest mango producer in the Philippines are in Zambales and Guimaras.\n
+\n The mango fruit belongs to the genus Mangifera and the family Anacardiaceae – it is closely related to the cashew!"
         android:textAlignment="center"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
