@@ -67,7 +67,10 @@
         android:id="@+id/content_kalesa"
         android:layout_width="243dp"
         android:layout_height="185dp"
-        android:text=""
+        android:text="Meaning: \n a symbol of nobility and prestige \n
+\n History and Background: \n Philippine kalesa is a horse-driven carriage that looks like an inclined cart, was introduced during the 18th century. The kalesa has two round wheels on each side and two rows of seats that can accommodate four persons. The driver sits on a block of wood located at the front of the cart near the horse. This was one of the methods of transportation introduced in the Philippines in the 18th century by the Spaniards that only nobles and high ranked Spanish officials could afford. The Ilustrados, who are the rich Filipinos who had their own businesses, used the kalesa not only for traveling but as a way of transporting their goods as well. They are hardly ever used in the streets nowadays except in tourist spots and some rural areas. It has been around since the Spanish times in the Philippines, providing taxi service from one end of town to another, and from one town to another. The horse that pulled the kalesa went through several stages of training under its kuchero or driver. \n
+\n Other Info: \n Other vehicles, from the pedicab to the Mercedes have come and gone, but the kalesa has survived their competition. Town fiestas would not be complete without the parade of kalesas in full regalia. Today, with tourism on the rise, visitors enjoy cruising through town in these horse-drawn carriages.  Today when you hear the rhythmic clip-clop of a horse and the resonant ding-dong of a bell, you can be sure a kalesa is coming. Long live the Kalesa! \n
+"
         android:textAlignment="center"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
