@@ -36,7 +36,7 @@ public class Carabao extends AppCompatActivity {
         prev.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent prv = new Intent(Carabao.this,LechonBaboy.class);
+                Intent prv = new Intent(Carabao.this, Arnis.class);
                 startActivity(prv);
             }
         });

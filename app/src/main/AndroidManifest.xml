@@ -6,9 +6,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/appicon"
+        android:icon="@drawable/icown"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/appicon"
+        android:roundIcon="@drawable/icown"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sagisag"
         tools:targetApi="31">
@@ -63,7 +63,7 @@
             android:parentActivityName=".MainActivity"
             android:label="Hidden Gems"/>
         <activity
-            android:name=".LechonBaboy"
+            android:name=".Arnis"
             android:exported="false"
             android:parentActivityName=".MainActivity"
             android:label="Hidden Gems"/>

@@ -39,8 +39,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.107"
-        app:srcCompat="@drawable/talong"
-        tools:srcCompat="@drawable/talong" />
+        app:srcCompat="@drawable/vroom"
+        tools:srcCompat="@drawable/vroom" />
 
     <Button
         android:id="@+id/lbutton9"

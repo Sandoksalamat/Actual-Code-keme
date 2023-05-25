@@ -9,12 +9,12 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Button;
 
-public class LechonBaboy extends AppCompatActivity {
+public class Arnis extends AppCompatActivity {
     TextView tv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lechon_baboy);
+        setContentView(R.layout.activity_arnis);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Button next = findViewById(R.id.rbutton3);
@@ -29,14 +29,14 @@ public class LechonBaboy extends AppCompatActivity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent nxt = new Intent(LechonBaboy.this,Carabao.class);
+                Intent nxt = new Intent(Arnis.this,Carabao.class);
                 startActivity(nxt);
             }
         });
         prev.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent prv = new Intent(LechonBaboy.this,Narra.class);
+                Intent prv = new Intent(Arnis.this,Narra.class);
                 startActivity(prv);
             }
         });

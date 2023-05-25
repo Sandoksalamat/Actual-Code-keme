@@ -39,8 +39,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.107"
-        app:srcCompat="@drawable/talong"
-        tools:srcCompat="@drawable/talong" />
+        app:srcCompat="@drawable/nara"
+        tools:srcCompat="@drawable/nara" />
 
     <TextView
         android:id="@+id/content_narra"

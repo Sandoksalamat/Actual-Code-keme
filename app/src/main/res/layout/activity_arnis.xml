@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/s_bg"
-    tools:context=".LechonBaboy">
+    tools:context=".Arnis">
 
     <Button
         android:id="@+id/rbutton3"
@@ -40,7 +40,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.107"
         app:srcCompat="@drawable/talong"
-        tools:srcCompat="@drawable/talong" />
+        tools:srcCompat="@drawable/arnis" />
 
     <Button
         android:id="@+id/lbutton3"
@@ -81,10 +81,10 @@
         tools:ignore="HardcodedText" />
 
     <TextView
-        android:id="@+id/name_lechon"
+        android:id="@+id/name_arnis"
         android:layout_width="170dp"
         android:layout_height="54dp"
-        android:text="Lechon Baboy"
+        android:text="Arnis"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="24sp"

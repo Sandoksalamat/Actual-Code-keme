@@ -7,5 +7,23 @@
     android:layout_height="match_parent"
     android:background="@drawable/loadingscrn"
     tools:context=".about"
-    android:backgroundTint="#83020202"
-    android:backgroundTintMode="src_over"/>
+    android:backgroundTint="#DA020202"
+    android:backgroundTintMode="src_over">
+
+    <TextView
+        android:id="@+id/content_about"
+        android:layout_width="366dp"
+        android:layout_height="513dp"
+        android:text="Our app is named Hidden Gems because it corresponds to the national emblems of the Philippines.
+It highlights these national emblems that is hidden in plain sight every day. \n \n
+The app was made because of our combined efforts and contributions."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497"
+        tools:ignore="HardcodedText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

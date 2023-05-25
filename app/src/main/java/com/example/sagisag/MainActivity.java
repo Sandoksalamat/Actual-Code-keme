@@ -4,13 +4,11 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -51,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     roasted_pork.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            Intent roasted = new Intent(MainActivity.this,LechonBaboy.class);
+            Intent roasted = new Intent(MainActivity.this, Arnis.class);
             startActivity(roasted);
         }
     });
