@@ -97,9 +97,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.653"
-        app:srcCompat="@drawable/talong"
-        tools:srcCompat="@drawable/talong"
-        tools:ignore="HardcodedText" />
+        app:srcCompat="@drawable/anahaw"
+        tools:ignore="HardcodedText"
+        tools:srcCompat="@drawable/anahaw" />
 
     <ImageView
         android:id="@+id/Mangga"
@@ -113,8 +113,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.374"
         app:srcCompat="@drawable/talong"
-        tools:srcCompat="@drawable/talong"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        tools:srcCompat="@drawable/mangga" />
 
     <ImageView
         android:id="@+id/Agila"
@@ -128,9 +128,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.374"
-        app:srcCompat="@drawable/talong"
-        tools:srcCompat="@drawable/talong"
-        tools:ignore="HardcodedText" />
+        app:srcCompat="@drawable/agila"
+        tools:ignore="HardcodedText"
+        tools:srcCompat="@drawable/agila" />
 
     <ImageView
         android:id="@+id/Carabao"
