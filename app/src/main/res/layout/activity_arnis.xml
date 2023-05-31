@@ -39,8 +39,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.107"
-        app:srcCompat="@drawable/arniss"
-        tools:srcCompat="@drawable/arniss" />
+        app:srcCompat="@drawable/anis"
+        tools:srcCompat="@drawable/anis" />
 
     <Button
         android:id="@+id/lbutton3"

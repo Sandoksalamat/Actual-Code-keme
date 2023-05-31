@@ -19,9 +19,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.91"
-        app:srcCompat="@drawable/vroom"
+        app:srcCompat="@drawable/kalesa"
         tools:ignore="HardcodedText"
-        tools:srcCompat="@drawable/vroom" />
+        tools:srcCompat="@drawable/kalesa" />
 
     <ImageView
         android:id="@+id/Perlas"
@@ -50,9 +50,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.906"
-        app:srcCompat="@drawable/dans"
+        app:srcCompat="@drawable/dance"
         tools:ignore="HardcodedText"
-        tools:srcCompat="@drawable/dans" />
+        tools:srcCompat="@drawable/dance" />
 
     <ImageView
         android:id="@+id/BahayKubo"
@@ -65,9 +65,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.651"
-        app:srcCompat="@drawable/homie"
+        app:srcCompat="@drawable/bahay"
         tools:ignore="HardcodedText"
-        tools:srcCompat="@drawable/homie" />
+        tools:srcCompat="@drawable/bahay" />
 
     <ImageView
         android:id="@+id/Bakya"
@@ -144,9 +144,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.374"
-        app:srcCompat="@drawable/cabao"
+        app:srcCompat="@drawable/kalabaw"
         tools:ignore="HardcodedText"
-        tools:srcCompat="@drawable/cabao" />
+        tools:srcCompat="@drawable/kalabaw" />
 
     <ImageView
         android:id="@+id/LechonBaboy"
