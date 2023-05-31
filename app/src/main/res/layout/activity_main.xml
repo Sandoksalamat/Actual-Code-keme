@@ -81,9 +81,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.651"
-        app:srcCompat="@drawable/fetish"
+        app:srcCompat="@drawable/bakyaa"
         tools:ignore="HardcodedText"
-        tools:srcCompat="@drawable/fetish" />
+        tools:srcCompat="@drawable/bakyaa" />
 
     <ImageView
         android:id="@+id/Anahaw"
@@ -191,7 +191,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.087"
-        app:srcCompat="@drawable/nara"
+        app:srcCompat="@drawable/narara"
         tools:ignore="HardcodedText"
-        tools:srcCompat="@drawable/nara" />
+        tools:srcCompat="@drawable/narara" />
 </androidx.constraintlayout.widget.ConstraintLayout>
