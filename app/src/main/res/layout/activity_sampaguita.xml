@@ -19,8 +19,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.107"
-        app:srcCompat="@drawable/sampaguita"
-        tools:srcCompat="@drawable/sampaguita" />
+        app:srcCompat="@drawable/sampp"
+        tools:srcCompat="@drawable/sampp" />
 
     <Button
         android:id="@+id/button3"
